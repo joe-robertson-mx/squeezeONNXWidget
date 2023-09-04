@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendix.squeezeonnx.SqueezeONNX" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Squeeze ONNX</name>
+    <description>Widget to run SqueezeNet model on ONNX</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="ML File">
+            <property key="file" type="file" required="true">
+                <caption>ONNX File to be used</caption>
+                <description>ONNX file</description>
+            </property>
+            <property key="image" type="image" required="true">
+                <caption>Image for markup</caption>
+                <description>The Image to be marked up.</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
